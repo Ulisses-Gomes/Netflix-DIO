@@ -18,7 +18,7 @@ body{
 
 header .container{
   display: flex;
-  flex-direction: row;
+  
   align-items: center;
   justify-content: space-between;
 }
@@ -48,8 +48,16 @@ header nav a:hover{
   background-size: cover;
   height: 400px;
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center; 
+  align-items: flex-start;
   border: 1px solid red;
+}
+
+.filme-principal .descricao{
+  margin-bottom: 40px;
+}
+
+.titulo{
+  font-size: 40px;
 }
