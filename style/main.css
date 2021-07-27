@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 /*Elementos base*/
 body{
@@ -30,7 +31,6 @@ header .logo{
 }
 
 header nav a{
-  text-decoration: none;
   color: #aaa;
   margin-right: 10px; 
 }
@@ -73,13 +73,22 @@ header nav a:hover{
   cursor: pointer;
   transition: .3s ease all;
 }
+
 .botao:hover{
   background-color: #fff;
   color: #000;
 }
+.botao a{
+  color: #fff;
+}
+.botao a:hover{
+  color: #000;
+}
+
 .botao i{
   margin-right: 8px;
 }
+
 .container{
   margin-left: 20px;
 }
